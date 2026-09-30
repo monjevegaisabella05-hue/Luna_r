@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo | Luna Rosa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/Style.css">
+</head>
+<body class="interna">
+    <header>
+        <a href="./index.html" class="logo">Luna Rosa</a>
+        <ul class="menu">
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./Nosotros.html">Nosotros</a></li>
+            <li><a href="./Catalogo.html" class="activo">Catálogo</a></li>
+            <li><a href="./Contacto.html">Contáctanos</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <section class="section flotante">
+            <span class="burbuja" data-vy="-0.15" style="right:6%;top:10%;width:100px;height:100px"></span>
+            <span class="burbuja" data-vy="-0.3" style="right:22%;top:60%;width:60px;height:60px"></span>
+            <h2 class="aparece">Nuestro catálogo</h2>
+            <p>Conoce nuestros cosméticos y productos para el cuidado del cabello. Usa las flechas para ver más.</p>
+
+            <div class="carrusel aparece">
+                <button class="flecha prev" aria-label="Producto anterior">&#8249;</button>
+                <div class="ventana">
+                    <div class="pista">
+                        <article class="tarjeta"><div class="tarjeta-interna">
+                            <img src="./image/descarga__17_-removebg-preview.png" alt="Crema hidratante">
+                            <h3>Crema hidratante</h3>
+                            <p>Hidratación suave para el cuidado diario de tu piel.</p>
+                            <p class="precio">$35.000</p>
+                            <a class="boton" href="./contacto.html">Pedir</a>
+                        </div></article>
+                        <article class="tarjeta"><div class="tarjeta-interna">
+                            <img src="./image/Labial_Liquido_Vogue_Resist_Apasionada_Frasco_x_3_mL-removebg-preview.png" alt="Labial">
+                            <h3>Labial</h3>
+                            <p>Color intenso y cómodo para todo el día.</p>
+                            <p class="precio">$12.000</p>
+                            <a class="boton" href="./contacto.html">Pedir</a>
+                        </div></article>
+                        <article class="tarjeta"><div class="tarjeta-interna">
+                            <img src="./image/descarga__16_-removebg-preview (1).png" alt="Paleta de sombras">
+                            <h3>Paleta de sombras</h3>
+                            <p>Tonos lilas y rosados para mirar con brillo.</p>
+                            <p class="precio">$25.000</p>
+                            <a class="boton" href="./contacto.html">Pedir</a>
+                        </div></article>
+                        <article class="tarjeta"><div class="tarjeta-interna">
+                            <img src="./image/Hyalu_B5_Superativado-removebg-preview.png" alt="Sérum con crema">
+                            <h3>Sérum con crema</h3>
+                            <p>Cuidado capilar para un cabello suave y con brillo.</p>
+                            <p class="precio">$68.000</p>
+                            <a class="boton" href="./contacto.html">Pedir</a>
+                        </div></article>
+                        <article class="tarjeta"><div class="tarjeta-interna">
+                            <img src="./image/Hyalu_B5_Superativado-removebg-preview.png" alt="Sérum con crema">
+                            <h3>Sérum con crema</h3>
+                            <p>Cuidado capilar para un cabello suave y con brillo.</p>
+                            <p class="precio">$68.000</p>
+                            <a class="boton" href="./contacto.html">Pedir</a>
+                        </div></article>s
+                    </div>
+                </div>
+                <button class="flecha next" aria-label="Producto siguiente">&#8250;</button>
+            </div>
+            <div class="puntos"></div>
+        </section>
+    </main>
+
+    <footer class="pie">
+        <div class="pie-grid">
+            <div><a class="logo" href="./index.html">Luna Rosa</a><p>Cosméticos y cuidado capilar para resaltar tu esencia y brillar cada día.</p></div>
+            <div><h3>Explora</h3><a href="./index.html">Inicio</a><a href="./nosotros.html">Nosotros</a><a href="./catalogo.html">Catálogo</a><a href="./contacto.html">Contáctanos</a></div>
+            <div><h3>Contacto</h3><p>+57 300 000 0000</p><p>correo@lunarosa.com</p><p>@lunarosa</p></div>
+        </div>
+        <p class="copy">© 2026 Luna Rosa. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="./js/carousel.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
